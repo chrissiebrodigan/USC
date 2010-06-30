@@ -1,0 +1,48 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+body{background-color: #161617;}
+
+.mat-wrapper { width:760px; height:621px; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:url(http://www.eecoder.com/usc/bg.jpg) 0 0 no-repeat; position:relative; }
+
+.mat-left { width:449px; float:left; padding:245px 15px 0 50px; color: #000000; }
+.mat-left p, .mat-left ul { margin:0 0 15px 0; line-height: 1.2; }
+.mat-wrapper ul { color:#555; margin: 15px 0 15px 30px; color: #555555; }
+.mat-left ul li{list-style-type: disc; font-size:11px; margin: 0 0 3px 0;}
+.mat-wrapper h2, .mat-wrapper h3 { font-size:15px; text-align:center; color:#A31D00; }
+.mat-wrapper h3 { font-size:13px; }
+.mat-box { width:210px; height:80px; font-size:11px; padding:7px; border:1px solid #FDD967; background-color:#fff; position:absolute; top:448px; left:47px; }
+.mat-box h3, .mat-box p { margin:0 0 5px; }
+.mat-box2 { left:278px; }
+
+
+#thankyou .mat-left { width:449px; float:left; padding:230px 15px 0 50px; color: #000000; }
+#thankyou .mat-left p, #thankyou .mat-left ul { margin:15px 0; }
+#thankyou .mat-left .mat-facebook div{text-align: center; font-size: 10px; padding: 0 10px;}
+#thankyou .mat-left h2{font-size: 12px; position: relative; top: -26px; margin:0 0 -15px 0; height: 15px; line-height: 15px; padding: 0; }
+#thankyou .mat-sidebar { width:182px; font-size:11px; color:#fff; float:left; padding:80px 15px;}
+#thankyou .mat-sidebar h1, #thankyou .mat-sidebar p { font-size:13px; font-weight:bold; color:#FDD041; margin:0 0 15px; }
+#thankyou .mat-sidebar a { color:#fff; text-decoration:none; }
+#thankyou .mat-sidebar a img { border:none; vertical-align:middle; }
+#thankyou .mat-twitter { width:220px; height:280px; padding:0; top:265px;}
+#thankyou .mat-twitter { left:278px; }
+#thankyou .mat-facebook iframe{border: none !important;}
+#thankyou .mat-facebook iframe, #thankyou .twtr-doc { width:100% !important; }
+#thankyou .mat-facebook{padding:0; top:265px; height: 280px;}
+
+.mat-wrapper form { width:182px; font-size:11px; color:#fff; float:left; padding:80px 15px;}
+.mat-wrapper form h1 { font-size:13px; color:#FDD041; margin:0 0 10px; }
+.mat-wrapper form label { font-weight:bold; color: #FFFFFF; display:block; font-size:10px; margin: 0 0 3px 0; }
+.mat-wrapper form p{margin: 0 0 10px 0;}
+.mat-wrapper form input, .mat-wrapper form select { width:180px; margin:0 0 10px; display: block; font-size: 12px;}
+
+.mat-small {width:90px;float:left;}
+.mat-wrapper form .mat-small label, .mat-wrapper form .mat-small input, .mat-wrapper form .mat-small select { width:75px; }

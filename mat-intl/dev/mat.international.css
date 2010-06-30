@@ -1,0 +1,592 @@
+@charset "utf-8";
+/*--------RESET ALL STYLES---------*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/*=================================*/
+
+
+/*-----------------------------*/
+body {
+	background: url('images/body-bg-repeat.gif') repeat #373737;
+	font-size: 14px;
+	line-height: 27px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#451505;
+}
+
+.footer, .logo-indent, label, .message, .col2 .section2 ul li { font-family: Helvetica, Verdana, Arial, sans-serif; }
+
+h2, h4 { font-family: Georgia, serif; }
+/*=================================*/
+
+
+/*-----------FONT SIZES------------*/
+h1, h2, h3, h4, h5, h6, .footer{
+	line-height: normal;
+}
+h1 {
+	background: url('images/mat-at-usc-logo.gif') no-repeat;
+	width: 272px;
+	height: 47px;
+	position: relative;
+	top: 44px;
+	left: 27px;
+}
+h2 {
+	font-size: 40px;
+	color: #990000;
+	line-height:47px;
+	margin: 5px 0;
+}
+h3 {
+	width: 420px;
+	height: 67px;
+}
+h4 {
+	font-size: 24px;
+	font-weight:normal;
+	color: #990000;
+	margin-bottom: 9px;
+}
+h5 {
+	background: url('images/h5-choose-the-program.gif') no-repeat;
+	width: 392px;
+	height: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+h6 {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 27px;
+}
+.footer{
+	font-size: 11px;
+}
+/*=================================*/
+
+
+
+
+/*-------------COLORS--------------*/
+
+
+a {
+	color:#ffcc00;
+	text-decoration: none;
+}
+a:hover {
+	color:#ffcc00;
+	text-decoration: underline;
+}
+/*=================================*/
+
+
+
+
+/*--------MAIN STYLES---------*/
+p {
+	margin: 0 0 18px 0;
+}
+ul, ol {
+	margin: 10px 0 20px 0;
+	list-style:none;
+}
+ul li{
+	background: url('images/list-style.jpg') no-repeat 0 4px;
+	padding: 0 0 0 17px;
+}
+
+blockquote {
+	background: #e5e5e5; 
+	font-size: 18px;
+	font-style: normal;
+	line-height: 28px;
+	margin: 25px 0 53px;
+	padding: 13px 20px;
+	font-family: helvetica, arial, sans-serif;
+}
+blockquote em{
+	font-weight: bold;
+	font-style: normal;
+}
+strong {
+	font-weight:700;
+}
+hr {
+	clear: both;
+	float: none;
+	width: 100%;
+	height: 1px;
+	margin: 18px 0 18px 0;
+	/*border-bottom:1px dotted #c2c2c2;*/
+	border-top:0;
+}
+em {
+	font-style: italic;
+}
+.disclaimer{
+	text-align: center;
+	font-size: 15px;
+}
+/*=================================*/
+
+
+
+/*------------CONTAINERS------------*/
+.container {
+	text-align: left;
+	position: relative;
+	/*background:  url(images/container-bg-repeat.jpg) repeat-x top #fff9ec;*/
+	width: 960px;
+	margin: 24px auto 0 auto;
+}
+
+.header, .content, .footer { margin: 0 auto; }
+
+.header {
+	position: relative;
+	height: 119px;
+}
+
+.content-container {
+	padding: 40px 25px 25px 25px;
+	background: #fff;
+}
+
+.footer-wrap {
+	background: #000000;
+	color: #fff;
+	width: 960px;
+	margin: 0 auto 100px auto;
+}
+
+.footer { padding: 20px 28px; }
+.footer div { line-height: 17px; }
+
+
+/*-------------CONTENT-------------*/
+.replaced, h1, .txt-usc, .logo-tab, h5, .logo-usc-rossier, h3, .btn-previous a, .btn-fbook a, .btn-twitter a {
+	display: block;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+.txt-usc {
+	background: url('images/txt-university-of-southern-california.gif') no-repeat left top;
+	width: 213px;
+	height: 13px;
+	position: relative;
+	top:10px;
+}
+
+.logo-tab {
+	background: url('images/usc-tab.gif') no-repeat 0 0;
+	width: 43px;
+	height: 28px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.logo-indent {
+	background: url('images/mat-usc-logo-2.jpg') no-repeat left;
+	padding: 19px 0 0 255px;
+	line-height: normal;
+	font-size: 21px;
+}
+
+.logo-usc-rossier {
+	background: url('images/usc-rossier-school-of-education-logo.gif') no-repeat;
+	width: 181px;
+	height: 82px;
+	position: relative;
+}
+
+.form {
+	float: right;
+	height: auto;
+	position: relative;
+	/*width: 475px;*/
+}
+
+.content {
+	height: auto;
+	float: left;
+	position: relative;
+	width: 447px;
+}
+
+.content .section1 {}
+
+.content .section2 { overflow: hidden; }
+.content .section2 ul{ margin-bottom: 0; }
+
+.content .section2 ul li{
+	font-size:14px;
+	line-height:21px;
+	margin-top:18px;
+}
+
+.content .section2 div {
+	width: 210px;
+	border-top: 4px solid #990000;
+	padding-top: 5px;
+}
+		
+.content h4 {
+	height: 20px;
+	display: block;
+	text-indent: -999px;
+	overflow: hidden;
+}
+
+.content .section2 div.left { float: left; }
+.content .section2 div.right { float: right; }
+
+.content .section2 div.left h4 {
+	background: url('images/h4-mat-at-usc.gif') no-repeat;
+	width: 135px;
+}
+
+.content .section2 div.right h4 {
+	background: url('images/h4-mat-as-usc-tesol.gif') no-repeat;
+	width: 210px;
+}
+
+/*--------------FORMS-------------*/
+.form-wrap {
+	width: 375px;
+	background: #ffdb4c url('images/form-wrap-bg.gif') left bottom repeat-x;
+	padding: 27px 22px 10px 23px;
+	font-family: helvetica, arial, sans-serif;
+	margin-bottom: 83px;
+}
+
+#progress-bar-wrapper {
+	position: relative;
+	width: 365px;
+	margin: 0 auto;
+	padding: 5px;
+	background: #ffc624;
+}
+
+#progress-bar {
+	display: block;
+	width: 363px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #ff9600;
+	z-index: 10;
+}
+
+#progress-bar span {
+	display: block;
+	position: absolute;
+	top: 14px;
+	right: 18px;
+	font-size: 14px;
+	font-family: helvetica, arial, sans-serif;
+	color: #666;
+	z-index: 30;
+}
+
+#progress-bar span.complete { color: #fff; }
+
+#progress-bar-fill {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 20px;
+	height: 35px;
+	border: 1px solid #289135;
+	background: #2b9b3e;
+}
+
+.progress-bar-fill-10 { width: 40px; }
+.progress-bar-fill-50 { width: 187px; }
+.progress-bar-fill-90 { width: 330px; }
+.progress-bar-fill-100 { width: 363px; }
+
+#progress-bar-steps ol {
+	margin-left: 40px;
+	width: 310px;
+	overflow: hidden;
+}
+
+#progress-bar-steps li {
+	float: left;
+	text-indent: -999px;
+	width: 24px;
+	height: 24px;
+	margin-right: 119px;
+}
+
+#progress-bar-steps-1 { background: url('images/progress-bar-steps-1.gif') 0 0 no-repeat; }
+#progress-bar-steps-2 { background: url('images/progress-bar-steps-2.gif') 0 0 no-repeat; }
+#progress-bar-steps-3 { background: url('images/progress-bar-steps-3.gif') 0 0 no-repeat; margin-right: 0 !important; }
+
+fieldset {
+	border: none;
+	display: none;
+}
+
+input, textarea, select {
+	padding: 7px;
+	float: none;
+	border: 1px solid #ff9600;
+	background: #fff;
+}
+
+textarea { overflow: auto; }
+
+.row {
+	clear: both;
+	padding-top: 5px;
+}
+
+label {
+	color: #000;
+	font-weight: bold;
+	line-height: normal;
+	margin: 0;
+}
+
+.error .messages, .error .messages li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+.error .messages li {
+    padding: 0.1em 0 0 1.5em;
+    color: #AA0404;
+}
+ 
+.error input { color: #AA0404; }
+.success { background: url('images/ico-success.gif') right 27px no-repeat; }
+.error { background: url('images/ico-error.gif') right 27px no-repeat; }
+
+fieldset strong {
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+}
+
+fieldset button[type="button"] {
+	text-indent: -9999px;
+	display: block;
+	width: 227px;
+	height: 64px;
+	background: url('images/btn-next-step.gif') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+fieldset button[type="submit"] {
+	text-indent: -9999px;
+	display: block;
+	width: 227px;
+	height: 64px;
+	background: url('images/btn-request.jpg') 0 0 no-repeat;
+	cursor: pointer;
+}
+
+fieldset h4 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 24px;
+	color: #000;
+	min-height: 36px;
+	padding: 4px 0 0 48px;
+	line-height: 28px;
+}
+
+fieldset label {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 4px;
+}
+
+fieldset input, fieldset select { width: 325px; }
+fieldset input[type="radio"] { width: 20px; }
+fieldset select { height: 31px; }
+
+.field-row { margin-bottom: 15px; }
+
+.field-cell {
+	float: left;
+	width: 177px;
+	margin-right: 10px;
+}
+
+.field-cell input, .field-cell select { width: 140px; }
+
+#step-1 h4 { background: url('images/h4-step-1.gif') 0 0 no-repeat; }
+#step-2 h4 { background: url('images/h4-step-2.gif') 0 0 no-repeat; }
+#step-3 h4 { background: url('images/h4-step-3.gif') 0 0 no-repeat; }
+fieldset button { margin: 30px auto 0 auto; }
+
+#step-1 input, #step-1 label { float: left; }
+#step-1 input { margin: 4px 10px 20px 53px; }
+#step-1 label { font-size: 21px; }
+
+#step-2 label.radio { display: inline; font-size: 14px; }
+
+form div#no-spam {
+	margin-top: 16px;
+	text-align: center;
+	color: #000;
+	font-family: georgia, serif;
+	font-size: 14px;
+	font-style: italic;
+}
+
+/*=================================*/
+
+#privacy {
+	font-size: 13px;
+	color: #c60;
+	font-family: georgia, serif;
+	font-style: italic;
+	height: 32px;
+	text-align: right;
+	padding: 10px 41px 0 0;
+	margin-top: 65px;
+	background: url('images/privacy.gif') right top no-repeat;
+}
+
+#hacker-safe {
+	text-align: right;
+	font-family: georgia, serif;
+	font-style: italic;
+	font-size: 13px;
+	color: #000;
+}
+
+#hacker-safe img {
+	float: right;
+	margin-right: 20px;
+	display: block;
+}
+
+.clear { clear: both; }
+
+/*=================================*/
+
+.footer h6 { font-size: 14px; }
+.footer div { line-height: 20px; }
+
+
+/*-------------A/B test specific styles------------*/
+.header{
+	background: url(images/header-bg.gif) no-repeat bottom;
+}
+h3{
+	background: url(images/txt-learn-more.gif) no-repeat;
+}
+
+
+
+body#thank-you, body#thank-you-2{
+	background: url(images/thank-you-bg-repeat.jpg) top center repeat-x;
+}
+body#thank-you .container{
+	background: url(images/thank-you-dummy.jpg) top center no-repeat;
+	height: 873px;
+	width:100%;
+}
+body#thank-you-2 .container{
+	background: url(images/thank-you-2.jpg) top center no-repeat;
+	height: 873px;
+	width:100%;
+}
+/*=================================*/
+
+.facebox{
+	position: absolute;
+	top:392px;
+	left: 645px;
+}
+body#thank-you .content, body#thank-you-2 .content{
+	width: 1050px;
+	margin: 0 auto;
+	position: relative;
+}
+.connect_widget .connect_widget_facebook_logo_menubar{
+	display: none !important;
+}
+.btn-previous{
+	position: absolute;
+	top:159px;
+	right: 0;
+}
+.btn-previous a{
+	width:195px;
+	height: 65px;
+}
+.btn-fbook{
+	position: absolute;
+	top:245px;
+	right: 0;
+}
+.btn-fbook a{
+	width: 424px;
+	height: 124px;
+}
+.btn-twitter{
+	position: absolute;
+	top:699px;
+	right: 82px;
+}
+.btn-twitter a{
+	width: 487px;
+	height: 147px;
+}
+.message{
+	position: absolute;
+	top:423px;
+	width: 360px;
+	left: 150px;	
+	color: #000000;
+}
+body#thank-you-2 .message{
+	width: 500px;
+	left: 80px;
+}
+body#thank-you-2 .message p{
+	font-size: 14px;
+	line-height: normal;
+	height: auto;
+}
+.message p{
+	font-size: 24px;
+	height: 120px;
+	line-height: 32px;
+}
+.message p strong{
+	color: #990000;
+	font-size: 24px;
+}
+.message p strong span{
+	color: #ffcc00;
+}
+.message strong{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 38px;
+}
+.message strong span{
+	color: #ffcc00;
+}

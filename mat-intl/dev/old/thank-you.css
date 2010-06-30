@@ -1,0 +1,170 @@
+/* RESET CSS v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-style: normal;
+}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus { outline: 0; }
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END RESET CSS */
+
+html, body {
+	background: #000;
+	font-size: 62.5%;
+	font-family: helvetica, arial, sans-serif;
+}
+
+body { font-size: 100%; }
+
+#wrapper {
+	position: relative;
+	background: url('thank-images/bg-wrapper.gif') 0 50px repeat-x;
+	margin-bottom: 68px;
+}
+
+#stripe {
+	height: 50px;
+	background: #000;
+	color: #fff;
+}
+
+#stripe-content {
+	margin: 0 auto;
+	width: 950px;
+	padding-top: 6px;
+}
+
+#stripe-content span {
+	text-indent: -999px;
+	background: url('thank-images/txt-university-of-southern-california.gif') 0 0 no-repeat;
+	width: 214px;
+	height: 12px;
+	overflow: hidden;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+}
+
+span#logo {
+	text-indent: -999px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: 381px;
+	background: url('thank-images/usc.gif') 0 0 no-repeat;
+	width: 94px;
+	height: 75px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+#content {
+	position: relative;
+	background: url('thank-images/bg-content.jpg') 0 0 no-repeat;
+	width: 1200px;
+	height: 882px;
+	overflow: hidden;
+	margin: 0 auto;
+	z-index: 5;
+}
+
+#message {
+	position: absolute;
+	width: 370px;
+	top: 391px;
+	left: 237px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#message p {
+	margin-bottom: 38px;
+	font-size: 240%;
+	line-height: 30px;
+}
+
+#message p strong {
+	font-weight: 800;
+	color: #900;
+}
+
+#message p strong span {
+	color: #fc0;
+}
+
+#message p.call-us {
+	font-size: 170%;
+	color: #fff;
+	letter-spacing: 0.04em;
+}
+
+#message p.call-us span {
+	color: #fc0;
+}
+
+#facebook-box {
+	display: block;
+	background: #fff;
+	width: 329px;
+	height: 246px;
+	padding: 13px 12px 12px 12px;
+	overflow: hidden;
+	position: absolute;
+	top: 214px;
+	left: 717px;
+}
+
+#facebook-button {
+	display: block;
+	width: 360px;
+	height: 96px;
+	overflow: hidden;
+	position: absolute;
+	top: 522px;
+	left: 708px;
+	text-indent: -999px;
+}
+
+#twitter-button {
+	display: block;
+	width: 486px;
+	height: 114px;
+	overflow: hidden;
+	position: absolute;
+	top: 652px;
+	left: 554px;
+	text-indent: -999px;
+}
+
+.clear { clear: both; }

@@ -1,0 +1,456 @@
+/*
+Theme Name: School of Social Work
+Theme URI: N/A
+Description: Theme for USC SSW
+Author: Jjomedia
+Author URI: N/A
+Version: 0.1
+*/
+
+/* RESET CSS v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-style: normal;
+}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus { outline: 0; }
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END RESET CSS */
+
+html, body {
+	background: #e7e5e2;
+	font-size: 62.5%;
+	font-family: helvetica, arial, sans-serif;
+}
+
+body {
+	font-size: 100%;
+}
+
+#stripe {
+	background: #000;
+	width: 100%;
+	height: 50px;
+}
+
+#stripe-content {
+	margin: 0 auto;
+	width: 846px;
+}
+
+#stripe-content span {
+	float: left;
+	text-indent: -999px;
+	background: url('images/txt-university-of-southern-california.gif') 0 0 no-repeat;
+	width: 214px;
+	height: 12px;
+	overflow: hidden;
+	display: block;
+	margin-top: 6px;
+	color: #fff;
+	font-weight: bold;
+}
+
+#stripe span.logo {
+	float: right;
+	background: url('images/usc.gif') 0 0 no-repeat;
+	width: 43px;
+	height: 28px;
+	margin-top: 11px;
+}
+
+#wrapper {
+	width: 846px;
+	margin : 26px auto 30px auto;
+}
+
+#content-wrapper {
+	float: left;
+	width: 628px;
+	margin-right: 20px;
+	background: #fff;
+}
+
+h1 {
+	text-indent: -999px;
+	width: 628px;
+	height: 57px;
+	overflow: hidden;
+	border-bottom: 14px solid #000;
+	background: url('images/txt-usc-school-of-social-work.gif') 0 0 no-repeat;
+}
+
+#content {
+	width: 582px;
+	height: 813px;
+	overflow: hidden;
+	margin: 30px auto 0 auto;
+}
+
+#content h2 {
+	text-indent: -999px;
+	width: 570px;
+	height: 58px;
+	overflow: hidden;
+	background: url('images/txt-become-a-social-worker-to-create-compassionate-solutions-for-tough-problems.gif') 0 0 no-repeat;
+	margin-bottom: 24px;
+}
+
+#questionnaire {
+	position: relative;
+	width: 581px;
+	height: 386px;
+	overflow: hidden;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 32px;
+}
+
+#questionnaire-top {
+	width: 581px;
+	height: 4px;
+	overflow: hidden;
+	background: url('images/questionnaire-top.gif') 0 0 no-repeat;
+}
+
+#questionnaire-content {
+	width: 545px;
+	height: 347px;
+	overflow: hidden;
+	padding: 24px 16px 0 20px;
+	background: url('images/bg-questionnaire.gif') 0 0 repeat-x;
+}
+
+#questionnaire-content h3 {
+	font-family: frutiger, helvetica, arial, sans-serif;
+	font-size: 190%;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 11px;
+}
+
+#questionnaire-content em {
+	font-family: georgia, serif;
+	font-size: 130%;
+	font-style: italic;
+	color: #666;
+	margin-bottom: 14px;
+}
+
+#progress-bar {
+	width: 298px;
+	height: 19px;
+	overflow: hidden;
+	margin: 14px 0 15px 0;
+	font-family: georgia, serif;
+	font-size: 140%;
+	color: #666;
+	font-style: italic;
+	text-align: right;
+	padding: 8px 10px 0 0;
+}
+
+#progress-bar.bar-0 { background: url('images/bar-0.gif') 0 0 no-repeat; }
+#progress-bar.bar-33 { background: url('images/bar-33.gif') 0 0 no-repeat; }
+#progress-bar.bar-66 { background: url('images/bar-66.gif') 0 0 no-repeat; }
+#progress-bar.bar-100 { background: url('images/bar-100.gif') 0 0 no-repeat; color: #fff; }
+
+#question-box {
+	width: 406px;
+	height: 182px;
+	overflow: hidden;
+	padding: 23px 32px 0 32px;
+	border: 3px solid #fff;
+	background: #fee890;
+	margin-bottom: 14px;
+	font-size: 180%;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#question-box fieldset {
+	margin: 0 0 0 9px;
+	display: none;
+}
+
+#question-box fieldset strong {
+	display: block;
+	margin-bottom: 15px;
+}
+
+#question-box fieldset .field-row {
+	margin-bottom: 15px;
+	width: 397px;
+	overflow: hidden;
+}
+
+#question-box fieldset .field-row.success {
+	background: url('images/bg-validated.gif') 235px 3px no-repeat;
+}
+
+#question-box fieldset .field-row.error {
+	background: url('images/bg-error.gif') 235px 3px no-repeat;
+}
+
+#question-box fieldset .field-row.alt { margin-bottom: 15px; }
+#question-box fieldset .field-row label { line-height: 22px; }
+
+#question-box fieldset button {
+	background: url('images/bg-button-next.gif') 0 0 no-repeat;
+	width: 93px;
+	height: 33px;
+	text-align: left;
+	padding-left: 10px;
+	overflow: hidden;
+	display: block;
+	font-family: georgia, serif;
+	color: #fff;
+	font-style: italic;
+	font-size: 100%;
+	border: none;
+	vertical-align: middle;
+}
+
+#question-box fieldset .field-row .field-cell {
+	float: left;
+	width: 192px;
+	margin-right: 10px;
+}
+
+#question-box fieldset .field-row .field-cell.success {
+	background: url('images/bg-validated.gif') right 3px no-repeat;
+}
+
+#question-box fieldset .field-row .field-cell.error {
+	background: url('images/bg-error.gif') right 3px no-repeat;
+}
+
+#question-box fieldset .field-row .field-cell.alt { margin-right: 0; }
+
+#question-box fieldset .field-row .field-cell label {
+	font-size: 70%;
+	line-height: 16px;
+	float: left;
+	width: 65px;
+	margin-right: 5px;
+}
+
+input, select {
+	padding: 2px;
+	font-size: 70%;
+	font-family: helvetica, arial, sans-serif;
+	color: #666;
+}
+
+input[type="radio"] {
+	float: left;
+	width: 15px;
+	padding: 0px;
+}
+
+label.radio {
+	display: block;
+	padding-left: 30px;
+}
+
+#question-box fieldset .field-row .field-cell input, #question-box fieldset .field-row .field-cell select {
+	width: 90px;
+	float: left;
+}
+
+option { margin: 2px 0; }
+
+#question-box fieldset button[type="submit"] {
+	background: url('images/bg-button-submit.gif') 0 0 no-repeat;
+	width: 113px;
+	margin-top: 20px;
+}
+
+#question-box fieldset#step-1 { display: block; }
+
+#questionnaire-content em.privacy {
+	color: #c60;
+	float: right;
+	margin-right: 40px;
+}
+
+#questionnaire-content img.privacy {
+	position: absolute;
+	top: 338px;
+	left: 536px;
+}
+
+#questionnaire-bottom {
+	width: 581px;
+	height: 4px;
+	overflow: hidden;
+	background: url('images/questionnaire-bottom.gif') 0 0 no-repeat;
+}
+
+h3 {
+	font-family: frutiger, helvetica, arial, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+#best-colleges-2010 {
+	width: 508px;
+	height: 33px;
+	overflow: hidden;
+	background: url('images/bg-best-colleges-2010.gif') 0 0 no-repeat;
+	font-size: 150%;
+	padding: 17px 0 0 74px;
+	margin-bottom: 18px;
+}
+
+#content ul {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 21px;
+}
+
+#content ul li {
+	float: left;
+	width: 223px;
+	background: url('images/bg-li.gif') 0 0 no-repeat;
+	padding: 2px 0 0 30px;
+	margin: 0 0 18px 32px;
+	font-size: 130%;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#content a {
+	color: #7a000e;
+	text-decoration: none;
+}
+
+#content p {
+	font-family: frutiger, helvetica, arial, sans-serif;
+	font-size: 140%;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+#content-footer {
+	height: 44px;
+	background: #000;
+	color: #fff;
+}
+
+#content-footer span {
+	float: left;
+	display: block;
+	width: 385px;
+	height: 12px;
+	text-indent: -999px;
+	background: url('images/txt-know-someone-who-wants-to-become-a-social-worker.gif') 0 0 no-repeat;
+	margin: 15px 18px 0 23px;
+}
+
+#content-footer a {
+	float: left;
+	display: block;
+	width: 156px;
+	height: 18px;
+	overflow: hidden;
+	padding: 4px 0 0 9px;
+	margin: 11px 0 0 0;
+	background: url('images/bg-share-this-program.gif') 0 0 no-repeat;
+	font-family: georgia, serif;
+	font-size: 140%;
+	font-style: italic;
+	color: #fff;
+	text-decoration: none;
+}
+
+#sidebar {
+	float: left;
+	width: 198px;
+	height: 914px;
+	background: url('images/bg-sidebar.gif') 0 116px repeat-x;
+	border-bottom: 44px solid #2a5b16;
+}
+
+#sidebar h2 {
+	text-indent: -999px;
+	background: url('images/txt-what-do-you-want-to-study.gif');
+	width: 198px;
+	height: 116px;
+	overflow: hidden;
+	margin-bottom: 24px;
+}
+
+#sidebar img { margin: 0 0 20px 4px; }
+
+#sidebar p {
+	color: #fff;
+	text-align: center;
+	margin: 30px 20px 0 20px;
+	line-height: 22px;
+	font-size: 140%;
+}
+
+#footer {
+	margin-top: 26px;
+	padding-bottom: 45px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 110%;
+}
+
+#footer p { margin-bottom: 8px; }
+#footer a { color: #438327; }
+
+#footer-content {
+	float: left;
+	width: 628px;
+	margin-right: 20px;
+}
+
+#hacker-safe {
+	float: right;
+	width: 198px;
+	font-family: georgia, serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 130%;
+}
+
+.clear { clear: both; }

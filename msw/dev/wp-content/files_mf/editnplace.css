@@ -1,0 +1,70 @@
+
+/* BEGIN EditnPlace css */
+
+#savingDiv{
+	font-size: medium;
+	font-weight: bold;
+}
+
+.EIP_title:hover, .EIP_content:hover,
+.EIP_textbox:hover, .EIP_mulittextbox:hover {
+	background-color: #FFFFCC
+}
+
+.EIPSaveCancel{
+	padding: 5px;
+	margin-top: -1px;
+	z-index: 1000;
+	border-color:#CCC;
+	border-width:1px;
+	border-style:solid;
+	background-color:white;
+	position:fixed;
+	top:0px !important;
+	width:100% !important;
+	left: 0px  !important;
+	/*position:absolute;
+	padding-top:2px;
+	padding-bottom:2px;
+	z-index: 1000;*/
+}
+
+.EIPSaveStatus{
+	position:absolute;
+	font-size: 14px;
+	z-index: 1000;
+}
+
+.EIPnicPanelDiv{
+	position: absolute;
+	background-image: url(http://msw/wp-content/plugins/magic-fields/images/arrow.gif);
+	width:154px;
+	height:38px;
+	z-index: 1000;
+}
+
+div.nicEdit-panel{
+	background-color: white !important;
+	width:140px  !important;
+}
+
+div.nicEdit-panelContain{
+	background-color: white !important;
+	border-bottom: 0px	!important;
+	border-left: 0px	!important;
+	border-right: 0px	!important;
+	width: 92%	!important;
+	margin-left: 2px	!important;
+	margin-top: 1px	!important;
+}
+
+.nicEdit-selected{
+	/*background-color: #FFFFCC  !important;*/
+	border: thin inset   !important;
+	padding: 10px;
+}
+.nicEdit-button {
+	background-color: white !important;
+	border: 0px !important;
+}
+/* END EditnPlace css */

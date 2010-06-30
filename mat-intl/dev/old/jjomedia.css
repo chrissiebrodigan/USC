@@ -1,0 +1,520 @@
+@charset "utf-8";
+/*--------RESET ALL STYLES---------*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/*=================================*/
+
+
+/*-----------------------------*/
+body {
+	background: url(images/body-bg-repeat.gif) repeat #373737;
+	font-size: 14px;
+	line-height: 27px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#451505;
+}
+.footer, .logo-indent, label, .message, .col2 .section2 ul li{
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+h2, h4, .disclaimer{
+	font-family: Georgia, serif;
+}
+/*=================================*/
+
+
+
+
+/*-----------FONT SIZES------------*/
+h1, h2, h3, h4, h5, h6, .footer{
+	line-height: normal;
+}
+h1 {
+	background: url(images/mat-at-usc-logo.gif) no-repeat;
+	width: 272px;
+	height: 47px;
+	position: relative;
+	top: 44px;
+	left: 27px;
+}
+h2 {
+	font-size: 40px;
+	color: #990000;
+	line-height:47px;
+	margin: 5px 0;
+}
+h3 {
+	width: 420px;
+	height: 67px;
+	margin-bottom: 7px;
+}
+h4 {
+	font-size: 24px;
+	font-weight:normal;
+	color: #990000;
+	margin-bottom: 9px;
+}
+h5 {
+	background: url(images/h5-choose-the-program.gif) no-repeat;
+	width: 392px;
+	height: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+h6 {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 27px;
+}
+.footer{
+	font-size: 11px;
+}
+/*=================================*/
+
+
+
+
+/*-------------COLORS--------------*/
+
+
+a {
+	color:#ffcc00;
+	text-decoration: none;
+}
+a:hover {
+	color:#ffcc00;
+	text-decoration: underline;
+}
+/*=================================*/
+
+
+
+
+/*--------MAIN STYLES---------*/
+p {
+	margin: 0 0 18px 0;
+}
+ul, ol {
+	margin: 10px 0 20px 0;
+	list-style:none;
+}
+ul li{
+	background: url(images/list-style.jpg) no-repeat 0 4px;
+	padding: 0 0 0 17px;
+}
+
+blockquote {
+	background: #e5e5e5; 
+	font-size:16px;
+	font-style:normal;
+	line-height:28px;
+	margin:25px 0 53px;
+	padding:13px 20px;
+}
+blockquote em{
+	font-weight: bold;
+	font-style: normal;
+}
+strong {
+	font-weight:700;
+}
+hr {
+	clear: both;
+	float: none;
+	width: 100%;
+	height: 1px;
+	margin: 18px 0 18px 0;
+	/*border-bottom:1px dotted #c2c2c2;*/
+	border-top:0;
+}
+em {
+	font-style: italic;
+}
+.disclaimer{
+	text-align: center;
+	font-size: 15px;
+}
+/*=================================*/
+
+
+
+/*------------CONTAINERS------------*/
+.container {
+	text-align: left;
+	position: relative;
+	/*background:  url(images/container-bg-repeat.jpg) repeat-x top #fff9ec;*/
+	width: 960px;
+	margin: 24px auto 0 auto;
+}
+.container:after, .content:after {
+	content:"___";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.container, .content {
+	display:inline-block;
+}
+/* Hide from IE Mac \*/
+.container, .content {
+	display:block;
+}
+/* End hide from IE Mac */
+
+.header, .content, .footer {
+	margin: 0 auto;
+}
+.header{
+	position: relative;
+	height: 119px;
+}
+.content{
+	padding: 40px 25px 25px 25px;
+	background: #fff;
+}
+.footer-wrap {
+	background: #000000;
+	color: #fff;
+	width: 960px;
+	margin: 0 auto 100px auto;
+}
+.footer{
+	padding:20px 28px;
+}
+.footer div{
+	line-height:17px;
+}
+
+/*=================================*/
+
+
+
+
+
+
+
+/*-------------CONTENT-------------*/
+.replaced, h1, .txt-usc, .logo-tab, h5, .logo-usc-rossier, h3, .btn-previous a, .btn-fbook a, .btn-twitter a{
+	display: block;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+.txt-usc{
+	background: url(images/txt-university-of-southern-california.gif) no-repeat left top;
+	width: 213px;
+	height: 13px;
+	position: relative;
+	top:10px;
+}
+.logo-tab{
+	background: url(images/usc-tab.gif) no-repeat 0 0;
+	width: 43px;
+	height: 28px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.logo-indent{
+	background: url(images/mat-usc-logo-2.jpg) no-repeat left;
+	padding: 19px 0 0 255px;
+	line-height: normal;
+	font-size: 21px;
+}
+.logo-usc-rossier{
+	background: url(images/usc-rossier-school-of-education-logo.gif) no-repeat;
+	width: 181px;
+	height: 82px;
+	position: relative;
+}
+.col1 {
+	float:right;
+	height:auto;
+	position:relative;
+	/*width: 475px;*/
+}
+.col2 {
+	height:auto;
+	float:left;
+	position:relative;
+	width: 447px;
+}
+	.col2 .section1{
+	}
+	.col2 .section2{
+		overflow: hidden;
+	}
+	.col2 .section2 ul{
+		margin-bottom: 0;
+	}
+	.col2 .section2 ul li{
+		font-size:14px;
+		line-height:21px;
+		margin-top:18px;
+	}
+		.col2 .section2 div{
+			width: 210px;
+			border-top: 4px solid #990000;
+			padding-top: 5px;
+		}
+		.col2 h4{
+			height: 20px;
+			display: block;
+			text-indent: -999px;
+			overflow: hidden;
+		}
+		.col2 .section2 div.left{
+			float: left;
+		}
+			.col2 .section2 div.left h4{
+				background: url(images/h4-mat-at-usc.gif) no-repeat;
+				width: 135px;
+			}
+		.col2 .section2 div.right{
+			float: right;
+		}
+			.col2 .section2 div.right h4{
+				background: url(images/h4-mat-as-usc-tesol.gif) no-repeat;
+				width: 210px;
+			}
+/*=================================*/
+
+
+
+
+/*--------------FORMS-------------*/
+.form-wrap{
+	width: 420px;
+	background: #ffdb4c;
+	/*
+	height: 645px;/*660-2-13
+	padding: 2px 0 13px 0;
+	position: absolute;
+	top: -128px;
+	left: -7px;*/
+	padding-bottom: 20px;
+}
+
+form{
+	/*padding: 40px 40px 10px 40px;*/
+}
+fieldset {
+	border:none;
+}
+input, textarea, select {
+	padding:7px;
+	float:none;
+	border: 1px solid #ff9600;
+	background: #fff;
+}
+textarea {
+	overflow:auto;
+}
+.row {
+	clear: both;
+	padding-top: 5px;
+}
+label{
+	color: #000;
+	font-weight: bold;
+	line-height: normal;
+	margin: 0;
+}
+
+
+.error .messages,
+.error .messages li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+.error .messages li {
+    padding: 0.1em 0 0 1.5em;
+    color: #AA0404;
+}
+ 
+.error input {
+    color: #AA0404;
+}
+ 
+.success {
+    background: url(images/ico-success.gif) right 10px no-repeat; 
+}
+#firstField, #lastField{
+	width: 186px;
+} 
+.error {
+    background: url(images/ico-error.gif) right 10px no-repeat;
+}
+
+
+#firstField input, #lastField input{
+	width: 146px;
+}
+#educationField select, #gpaField select{
+	width:295px;
+}
+#emailField input, #phoneField input{
+	width: 346px;
+}
+#zipField input{
+	/*width: 240px;*/
+}
+#stateField input {
+	width:142px;
+}
+#submit input{
+	display: block;
+	border: 0;
+	background: none;
+	padding: 0;
+	margin: 25px auto 0 auto;
+}
+#descriptionField label{
+	padding:0 20px 0 8px;
+	font-weight: normal;
+}
+/*=================================*/
+
+
+
+
+/*-------------TABLES------------*/
+
+table {
+	margin: 0;
+	border: none;
+	padding: 0 0 0 20px;
+}
+th, td {
+	border: none;
+	padding: 5px 7px;
+}
+
+/* Tables still need 'cellspacing="0"' in the markup. */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+/*=================================*/
+
+
+
+
+/*-------------A/B test specific styles------------*/
+.header{
+	background: url(images/header-bg.gif) no-repeat bottom;
+}
+h3{
+	background: url(images/txt-learn-more.gif) no-repeat;
+}
+
+
+
+body#thank-you, body#thank-you-2{
+	background: url(images/thank-you-bg-repeat.jpg) top center repeat-x;
+}
+body#thank-you .container{
+	background: url(images/thank-you-dummy.jpg) top center no-repeat;
+	height: 873px;
+	width:100%;
+}
+body#thank-you-2 .container{
+	background: url(images/thank-you-2.jpg) top center no-repeat;
+	height: 873px;
+	width:100%;
+}
+/*=================================*/
+
+.facebox{
+	position: absolute;
+	top:392px;
+	left: 645px;
+}
+body#thank-you .content, body#thank-you-2 .content{
+	width: 1050px;
+	margin: 0 auto;
+	position: relative;
+}
+.connect_widget .connect_widget_facebook_logo_menubar{
+	display: none !important;
+}
+.btn-previous{
+	position: absolute;
+	top:159px;
+	right: 0;
+}
+.btn-previous a{
+	width:195px;
+	height: 65px;
+}
+.btn-fbook{
+	position: absolute;
+	top:245px;
+	right: 0;
+}
+.btn-fbook a{
+	width: 424px;
+	height: 124px;
+}
+.btn-twitter{
+	position: absolute;
+	top:699px;
+	right: 82px;
+}
+.btn-twitter a{
+	width: 487px;
+	height: 147px;
+}
+.message{
+	position: absolute;
+	top:423px;
+	width: 360px;
+	left: 150px;	
+	color: #000000;
+}
+body#thank-you-2 .message{
+	width: 500px;
+	left: 80px;
+}
+body#thank-you-2 .message p{
+	font-size: 14px;
+	line-height: normal;
+	height: auto;
+}
+.message p{
+	font-size: 24px;
+	height: 120px;
+	line-height: 32px;
+}
+.message p strong{
+	color: #990000;
+	font-size: 24px;
+}
+.message p strong span{
+	color: #ffcc00;
+}
+.message strong{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 38px;
+}
+.message strong span{
+	color: #ffcc00;
+}

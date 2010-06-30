@@ -1,0 +1,765 @@
+/* RESET CSS v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-style: normal;
+}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus { outline: 0; }
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END RESET CSS */
+
+html, body {
+	background: #fff;
+	font-size: 62.5%;
+	font-family: helvetica, arial, sans-serif;
+}
+
+body { font-size: 100%; }
+
+a {
+	color: #7a000d;
+	text-decoration: none;
+}
+
+#stripe-top {
+	height: 49px;
+	margin-bottom: 22px;
+	background: #000;
+	color: #fff;
+}
+
+.stripe-content {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#stripe-top .stripe-content span {
+	float: left;
+	text-indent: -999px;
+	background: url('images/txt-university-of-southern-california.gif') 0 0 no-repeat;
+	width: 214px;
+	height: 12px;
+	overflow: hidden;
+	display: block;
+	margin-top: 6px;
+	color: #fff;
+	font-weight: bold;
+}
+
+#stripe-top .stripe-content span.logo {
+	float: right;
+	background: url('images/usc.gif') 0 0 no-repeat;
+	width: 43px;
+	height: 28px;
+	margin-top: 11px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+
+/* HEADER */
+
+#header {
+	height: 80px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+h1 {
+	float: left;
+	text-indent: -999px;
+	width: 562px;
+	height: 46px;
+	margin: 12px 138px 0 0;
+	background: url('images/txt-usc-school-of-social-work.gif') 0 0 no-repeat;
+}
+
+#header-nav { float: left; }
+
+ul#header-nav-students {
+	float: left;
+	border-right: 1px solid #ccc;
+	padding-top: 1px;
+	width: 156px;
+	overflow: hidden;
+}
+
+ul#header-nav-contact {
+	margin-left: 20px;
+	float: left;
+	width: 83px;
+}
+
+#header-nav ul li {
+	font-size: 140%;
+	font-family: serif;
+	padding-bottom: 7px;
+}
+
+/* NAVIGATION */
+
+#nav {
+	height: 46px;
+	margin-bottom: 9px;
+	position: relative;
+}
+
+#nav ul li { float: left; }
+
+#nav ul li a {
+	display: block;
+	height: 30px;
+	padding: 16px 15px 0 0;
+	text-align: center;
+	color: #fff;
+	font-size: 160%;
+	font-family: serif;
+	border-right: 1px solid #5b5a5b;
+}
+
+#li-master-of-social-work { width: 206px; }
+#nav-master-of-social-work {
+	width: 190px;
+	background: url('images/nav-bg-master-of-social-work.gif') 0 0 no-repeat;
+}
+
+#li-phd { width: 98px; }
+#nav-phd {
+	width: 82px;
+	background: url('images/nav-bg-phd.gif') 0 0 no-repeat;
+}
+
+#li-admissions { width: 138px; }
+#nav-admissions {
+	width: 122px;
+	background: url('images/nav-bg-admissions.gif') 0 0 no-repeat;
+}
+
+#li-academic { width: 128px; }
+#nav-academic {
+	width: 112px;
+	background: url('images/nav-bg-academic.gif') 0 0 no-repeat;
+}
+
+#li-faculty { width: 195px; }
+#nav-faculty {
+	width: 179px;
+	background: url('images/nav-bg-faculty.gif') 0 0 no-repeat;
+}
+
+#li-blog { width: 93px; }
+#nav-blog {
+	width: 77px;
+	background: url('images/nav-bg-blog.gif') 0 0 no-repeat;
+}
+
+#li-about { width: 102px; }
+#nav-about {
+	width: 87px;
+	border: none !important;
+	background: url('images/nav-bg-about.gif') 0 0 no-repeat;
+}
+
+#nav ul li a:hover, #nav ul li:hover a { background-position: 0 -46px; }
+
+/* subnav */
+#nav ul li ul {
+	position: absolute;
+	display: none;
+	width: inherit;
+	z-index: 20;
+	padding-bottom: 10px;
+	background-color: rgba(122, 0, 13, 0.85);
+}
+
+#nav ul li ul li {
+	float: none;
+}
+
+#nav ul li ul li a {
+	padding: 8px 10px 7px 17px;
+	font-family: "Lucida Grande", helvetica, sans-serif;
+	font-size: 120%;
+	height: auto;
+	border: none;
+	text-align: left;
+	line-height: 14px;
+}
+
+#nav ul li ul li a:hover {
+	background-color: rgba(73, 0, 8, 0.85);
+}
+
+#nav ul li:hover ul {
+	display: block;
+}
+
+/* CONTENT */
+#content {
+	float: left;
+	width: 670px;
+	margin-right: 30px;
+}
+
+#feature-wrapper {
+	position: relative;
+	width: 670px;
+	height: 350px;
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+
+.feature {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+.feature .description {
+	position: absolute;
+	top: 0px;
+	left: 35px;
+	width: 218px;
+	padding: 36px 30px 20px 20px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+}
+
+.feature .description h3 {
+	font-family: georgia, serif;
+	font-size: 240%;
+	font-weight: normal;
+	margin-bottom: 18px;
+}
+
+.feature .description p {
+	font-family: "Lucidia Grande", helvetica, sans-serif;
+	font-size: 130%;
+	line-height: 18px;
+	margin-bottom: 25px;
+}
+
+.feature button {
+	color: #fff;
+	width: 158px;
+	height: 28px;
+	border: 1px solid #a70101;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0, rgb(153, 0, 0)),
+	    color-stop(1, rgb(133, 0, 9))
+	);
+	background-image: -moz-linear-gradient(
+	    center top,
+	    rgb(153, 0, 0) 0%,
+	    rgb(133, 0, 9) 100%
+	);
+	cursor: pointer;
+	font-family: georgia, serif;
+	font-size: 140%;
+	text-transform: uppercase;
+}
+
+#feature-nav {
+	position: absolute;
+	top: 310px;
+	left: 15px;
+	height: 27px;
+	z-index: 20;
+}
+
+#feature-nav li {
+	float: left;
+	margin-right: 7px;
+}
+
+#feature-nav li a {
+	display: block;
+	text-align: center;
+	width: 26px;
+	height: 25px;
+	padding-top: 2px;
+	font-size: 180%;
+	font-family: georgia, serif;
+	background: #fff;
+	color: #000;
+}
+
+#feature-nav li a:hover, #feature-nav li a.active {
+	color: #fff;
+	background: #c40616;
+}
+
+#request-information {
+	height: 36px;
+	padding: 9px 0 0 20px;
+	margin-bottom: 25px;
+	background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0, rgb(243, 243, 244)),
+	    color-stop(1, rgb(209, 209, 209))
+	);
+	background-image: -moz-linear-gradient(
+	    center top,
+	    rgb(243, 243, 244) 0%,
+	    rgb(209, 209, 209) 100%
+	);
+}
+
+#request-information a {
+	display: block;
+	text-indent: -999px;
+	width: 191px;
+	height: 25px;
+	background: url('images/txt-request-information.gif') 0 0 no-repeat;
+}
+
+#spotlight {
+	float: left;
+	width: 225px;
+	margin-right: 25px;
+	padding-top: 10px;
+}
+
+#spotlight h3 {
+	text-indent: -999px;
+	background: url('images/txt-spotlight') 0 0 no-repeat;
+	width: 63px;
+	height: 10px;
+	margin-bottom: 27px;
+}
+
+#spotlight h4 {
+	font-family: georgia, serif;
+	font-size: 160%;
+	color: #7a000d;
+	font-weight: normal;
+	margin-bottom: 14px;
+	line-height: 18px;
+}
+
+#spotlight p {
+	font-family: "Lucida Grande", helvetica, sans-serif;
+	color: #333;
+	font-size: 120%;
+	margin-bottom: 27px;
+	line-height: 19px;
+}
+
+#feeds {
+	float: left;
+	width: 410px;
+	background: #f3f3f4;
+	padding: 11px 0 14px 10px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+#feeds-nav { z-index: 3; }
+
+#feeds-nav li { float: left; }
+
+#feeds-nav li a {
+	display: block;
+	height: 26px;
+	border: 1px solid #dedbdb;
+	border-bottom: none;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 4px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	margin-right: 4px;
+	text-indent: -999px;
+}
+
+#feeds-nav-news {
+	background-image: url('images/txt-news.gif');
+	width: 85px;
+}
+
+#feeds-nav-events {
+	background-image: url('images/txt-events.gif');
+	width: 92px;
+}
+
+#feeds-nav li a:hover, #feeds-nav li a.active { background-position: 0 -26px; }
+
+#feeds-nav-events:hover, #feeds-nav-events.active { background-image: url('images/txt-events.gif'); }
+
+.feed {
+	display: none;
+	width: 362px;
+	background: #fff;
+	border: 1px solid #dedbdb;
+	padding: 26px 18px 26px 17px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	z-index: 2;
+	margin-top: -1px;
+}
+
+.feed a {
+	font-family: georgia, serif;
+	font-style: italic;
+	font-size: 130%;
+	color: #7a000d;
+	border-bottom: 1px dotted #7a000d;
+}
+
+.feed li {
+	display: block;
+	margin-bottom: 16px;
+}
+
+.feed li a {
+	font-style: normal;
+	line-height: 18px;
+	border: none;
+}
+
+/* SIDEBAR */
+#sidebar {
+	float: left;
+	width: 260px;
+	margin-top: 18px;
+}
+
+#form-search { margin-bottom: 32px; }
+
+#form-search input, #form-search button {
+	font-family: georgia, serif;
+	font-size: 140%;
+}
+
+#search {
+	font-style: italic;
+	color: #666;
+	border: 1px solid #e3e3e3;
+	width: 189px;
+	padding: 8px 8px 4px 8px;
+	line-height: 10px;
+}
+
+#search-submit {
+	color: #7a000d;
+	text-transform: uppercase;
+	padding: 7px 10px 4px 10px;
+	background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0, rgb(255, 255, 255)),
+	    color-stop(1, rgb(241, 241, 241))
+	);
+	background-image: -moz-linear-gradient(
+	    center top,
+	    rgb(255, 255, 255) 0%,
+	    rgb(241, 241, 241) 100%
+	);
+	border: 1px solid #e3e3e3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#sidebar h3 {
+	text-indent: -999px;
+	height: 10px;
+	margin-bottom: 19px;
+}
+
+#featured-programs {
+	border-bottom: 1px solid #e3e2e3;
+	padding-bottom: 18px;
+	margin-bottom: 30px;
+}
+
+#sidebar #featured-programs h3 {
+	background: url('images/txt-featured-programs.gif') 0 0 no-repeat;
+	width: 128px;
+}
+
+#featured-programs li {
+	display: block;
+	margin-bottom: 16px;
+}
+
+#featured-programs li img {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#featured-programs li a {
+	font-family: georgia, serif;
+	font-size: 140%;
+}
+
+#sidebar #featured-people h3 {
+	background: url('images/txt-featured-people.gif') 0 0 no-repeat;
+	width: 104px;
+}
+
+#featured-person { margin-bottom: 14px; }
+
+#featured-person img {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 18px;
+}
+
+#featured-person span {
+	display: block;
+	float: left;
+	width: 162px;
+	font-size: 160%;
+	font-family: georgia, serif;
+	color: #7a000d;
+	margin-top: 20px;
+}
+
+#featured-people ul {
+	background: #f3f3f4;
+	padding: 10px 0 10px 10px;
+}
+
+#featured-people li {
+	float: left;
+	width: 38px;
+	height: 38px;
+	margin-right: 12px;
+}
+
+#featured-people li a img { border: 3px solid #f3f3f4; }
+#featured-people li a:hover img, #featured-people li a.active img {border: 3px solid #7a000d; }
+
+/* FOOTER */
+hr {
+	height: 10px;
+	background: #ccc;
+	margin-bottom: 1px;
+	border: none;
+}
+
+#footer-wrapper {
+	padding: 34px 0 32px 0;
+	background: #464646;
+	background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0, rgb(90, 90, 90)),
+	    color-stop(1, rgb(69, 68, 68))
+	);
+	background-image: -moz-linear-gradient(
+	    center top,
+	    rgb(90, 90, 90) 0%,
+	    rgb(69, 68, 68) 100%
+	);
+	border-bottom: 42px solid #2d2d2d;
+	margin-bottom: 18px;
+}
+
+#footer-content {
+	width: 960px;
+	overflow: hidden;
+	margin: 0 auto;
+	color: #ccc;
+	font-family: "Lucida Grande", serif;
+}
+
+#footer-content h5 { text-indent: -999px; }
+
+#footer-nav {
+	float: left;
+	width: 300px;
+	margin-right: 70px;
+}
+
+#footer-nav-first {
+	float: left;
+	width: 220px;
+}
+
+#footer-nav-second {
+	float: left;
+	width: 80px;
+}
+
+#footer-nav li { margin-bottom: 8px; }
+
+#footer-nav li a {
+	color: #ccc;
+	font-size: 110%;
+}
+
+#footer-nav h5 {
+	background: url('images/txt-usc-school-of-social-work_footer.gif') 0 0 no-repeat;
+	width: 176px;
+	height: 10px;
+	margin-bottom: 17px;
+}
+
+#footer-blog {
+	float: left;
+	width: 285px;
+	margin-right: 100px;
+}
+
+#footer-blog h5 {
+	background: url('images/txt-latest-from-the-blog_footer.gif') 0 0 no-repeat;
+	width: 163px;
+	height: 13px;
+	margin-bottom: 21px;
+}
+
+#footer-blog h6 {
+	font-family: georgia, serif;
+	font-size: 160%;
+	color: #fff;
+	font-weight: normal;
+	text-transform: capitalize;
+	margin-bottom: 6px;
+}
+
+#footer-blog span.meta {
+	display: block;
+	font-family: georgia, serif;
+	font-size: 110%;
+	color: #999;
+	font-style: italic;
+	margin-bottom: 11px;
+}
+
+#footer-blog p {
+	margin-bottom: 18px;
+	font-size: 110%;
+	line-height: 15px;
+}
+
+#footer-blog a {
+	color: #fff;
+	font-family: georgia, serif;
+	font-size: 110%;
+	font-style: italic;
+	border-bottom: 1px dotted #fff;
+}
+
+#footer-social {
+	float: left;
+	width: 205px;
+}
+
+#footer-social ul { margin-bottom: 47px; }
+
+#footer-social li {
+	float: left;
+	width: 44px;
+	margin-right: 17px;
+}
+
+#footer-social h5 {
+	background: url('images/txt-shape-your-future-reshape-the-world.gif') 0 0 no-repeat;
+	width: 197px;
+	height: 39px;
+}
+
+#stripe-bottom {
+	width: 960px;
+	margin: 0 auto 170px auto;
+}
+
+#stripe-bottom h6 {
+	text-indent: -999px;
+	background: url('images/txt-usc-school-of-social-work_bottom.gif') 0 0 no-repeat;
+	width: 226px;
+	height: 18px;
+	float: left;
+	margin-right: 14px;
+}
+
+#stripe-bottom span {
+	display: block;
+	float: left;
+	width: 60px;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 110%;
+	color: #333;
+	margin: 7px 0 0 0;
+}
+
+#stripe-bottom ul {
+	float: right;
+	width: 460px;
+}
+
+#stripe-bottom li {
+	float: right;
+	padding-top: 5px;
+	margin-left: 25px;
+}
+
+#stripe-bottom li a {
+	color: #666;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 110%;
+}
+
+.clear { clear: both; }
